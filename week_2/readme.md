@@ -98,6 +98,11 @@ db.collection("cities").add({
 
 ## 値の追加。すでに追加されている場合は上書き 
 <<< .set() >>>
+```
+    var db = firebase.firestore();
+
+```
+
 先ほど入力したScriptタグの中身を削除。
 そしてBodyの中のScriptに入力。
 ```Javascript
