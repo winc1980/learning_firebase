@@ -62,8 +62,9 @@ firebase init
 
 
 <img width="1393" alt="Screen Shot 2019-10-09 at 13 11 55" src="https://user-images.githubusercontent.com/48721079/66452155-614fe580-ea9a-11e9-93d2-157f823fb3ec.png">
+
 ```
-❯ Use an existing project
+Use an existing project
 ```
 
 ```
