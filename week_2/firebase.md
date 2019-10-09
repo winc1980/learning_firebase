@@ -17,12 +17,13 @@ Wikipediaによると、"データベース（英: database, DB）とは、検�
 * NoSQL
 
 #### データベースの型
-![https://proengineer.internous.co.jp/topics/wp-content/uploads/2017/01/column_image6411_01.jpg)
+<img src="https://proengineer.internous.co.jp/topics/wp-content/uploads/2017/01/column_image6411_01.jpg"  title="サンプル">
+
 
 図１（階層型データベース）
 
+<img src="https://proengineer.internous.co.jp/topics/wp-content/uploads/2017/01/column_image6411_04.jpg"  title="サンプル">
 
-![https://proengineer.internous.co.jp/topics/wp-content/uploads/2017/01/column_image6411_04.jpg)
 図２（データの例）
 
 データ
