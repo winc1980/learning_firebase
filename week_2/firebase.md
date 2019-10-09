@@ -13,7 +13,12 @@ Wikipediaによると、"データベース（英: database, DB）とは、検�
 
 それはたくさんの「データ」を集めて、後で使いやすい形に整理した情報のかたまり。(e.g. 電話帳・辞書・WINEの本）
 
-#### why Firebase..?
+
+
+（要件定義書データ項目一覧）
+https://www.mhlw.go.jp/sinsei/chotatu/chotatu/shiyousho-an/dl/181025-1-05_01-1.pdf
+
+#### Why Firebase..?
 * NoSQL
 
 #### データベースの型
@@ -116,6 +121,8 @@ Bodyの中に入れてください。（Script tag ではありません）
   <p>Keyword入力してください</p>
   <input id="key_word" type="text" value="">
   <input type="button" id="key_word_button" value="Submit" onclick="submit();">
+ <input type="button" id="key_button" value="Submit" onclick="show_me();">
+
 ```
 Bodyの中のScriptに
 ```Javascript
@@ -130,8 +137,27 @@ function submit() {
 .catch(function(error) {
     console.error("Error writing document: ", error);
 }
-
 ```
+
+## データの取得
+
+```Javascript
+function show_me() {
+	var docRef = db.collection("NEW").doc("SF");
+	
+	docRef.get().then(function(doc) {
+	    if (doc.exists) {
+	        console.log("Document data:", doc.data());
+	    } else {
+	        console.log("No such document!");
+	    }
+	}).catch(function(error) {
+	    console.log("Error getting document:", error);
+	});
+}
+```
+
+
 これはtargetという変数に"<input></input>"で入力したものを保存。
 (target＝入力した値)
 
