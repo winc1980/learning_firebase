@@ -139,23 +139,7 @@ function submit() {
 }
 ```
 
-## データの取得
 
-```Javascript
-function show_me() {
-	var docRef = db.collection("NEW").doc("SF");
-	
-	docRef.get().then(function(doc) {
-	    if (doc.exists) {
-	        console.log("Document data:", doc.data());
-	    } else {
-	        console.log("No such document!");
-	    }
-	}).catch(function(error) {
-	    console.log("Error getting document:", error);
-	});
-}
-```
 
 
 これはtargetという変数に"<input></input>"で入力したものを保存。
