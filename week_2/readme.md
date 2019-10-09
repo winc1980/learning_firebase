@@ -81,6 +81,10 @@ bodyの一番上に以下を入力。
 ## 一意のIDをつけて保存
  .add() を利用　
 Bodyの中のScriptに入力
+```
+  <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-firestore.js"></script>
+```
 
 ```Javascript
 db.collection("cities").add({
