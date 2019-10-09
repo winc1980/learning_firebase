@@ -117,9 +117,15 @@ firebase deploy
 ## HTML と　CSS
 Body の Script タグより上のコードを全て削除。
 
-Body の中にGithubのweek_1フォルダにあるindex.htmlをコピー
+Githubのweek_1フォルダにあるindex.htmlをコピー
 
 さっき削除したコードの代わりに貼り付ける。
+
+同じくGithubのweek_1フォルダにあるstyle.htmlをコピー
+
+publicの中に新しくstyle.htmlというファイルを作成
+
+そこに貼り付ける。
 
 
 terminal/command prompt で以下のコマンドを入力
