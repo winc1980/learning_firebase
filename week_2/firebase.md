@@ -58,8 +58,23 @@ users: {
 * Null	
 * 文字列
 
-#### データベースにデータを保存
-<<< .add() を利用　>>>
+## データベースにデータを保存
+まず前回追加したCSS といらない必要でないHTMLは削除してください。
+![Screen Shot 2019-10-09 at 13.17.33](file:///Users/natsukikataoka/Desktop/Screen%20Shot%202019-10-09%20at%2013.17.33.png)
+
+
+
+bodyの一番上に以下を入力。
+```
+<script>
+
+</script>
+```
+このscript tagの中にこれからはJavascriptを入力してデータベースを扱っていきます。
+
+
+## 一意のIDをつけて保存
+ .add() を利用　
 Bodyの中のScriptに入力
 
 ```Javascript
@@ -76,9 +91,10 @@ db.collection("cities").add({
 ```
 リロードした後に　Firebase/Console/Databaseから確認してみましょう。
 
-#### 値の追加。すでに追加されている場合は上書き 
+## 値の追加。すでに追加されている場合は上書き 
 <<< .set() >>>
-Bodyの中のScriptに入力。
+先ほど入力したScriptタグの中身を削除。
+そしてBodyの中のScriptに入力。
 ```Javascript
 db.collection("cities").doc("LA").set({
     name: "Los Angeles",
@@ -92,21 +108,20 @@ db.collection("cities").doc("LA").set({
     console.error("Error writing document: ", error);
 });
 ```
-(注意：リロードを忘れずに。)
+自分のサイトにいき、ページのリロードした後に　Firebase/Console/Databaseから確認してみましょう。
 
 ### 入力したものをデータベースに保存
-Bodyの中に入れてください。
+Bodyの中に入れてください。（Script tag ではありません）
 ```Html
   <p>Keyword入力してください</p>
   <input id="key_word" type="text" value="">
   <input type="button" id="key_word_button" value="Submit" onclick="submit();">
-  <input type="button" name="" value="delete cookie" onclick="delete_cookie();">
 ```
 Bodyの中のScriptに
 ```Javascript
+function submit() {
       var target = document.getElementById("key_word").value;
-      
-      db.collection("cities").doc(target).set({
+      db.collection("NEW").doc(target).set({
     name: target
 })
 .then(function() {
@@ -114,6 +129,8 @@ Bodyの中のScriptに
 })
 .catch(function(error) {
     console.error("Error writing document: ", error);
+}
+
 ```
 これはtargetという変数に"<input></input>"で入力したものを保存。
 (target＝入力した値)
