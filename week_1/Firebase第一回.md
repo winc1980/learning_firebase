@@ -59,6 +59,7 @@ Allow Firebase to collect CLI usage and error reporting information? (Y/n) Y
 ```
 firebase init
 ```
+<img width="690" alt="Screen Shot 2019-10-09 at 13 17 33" src="https://user-images.githubusercontent.com/48721079/66452105-2c439300-ea9a-11e9-9799-3e9e888c18a6.png">
 
 ![Screen Shot 2019-10-09 at 13.11.55](file:///Users/natsukikataoka/Desktop/Screen%20Shot%202019-10-09%20at%2013.11.55.png)
 
