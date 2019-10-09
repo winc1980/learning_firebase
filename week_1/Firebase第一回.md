@@ -59,7 +59,7 @@ Allow Firebase to collect CLI usage and error reporting information? (Y/n) Y
 ```
 firebase init
 ```
-<img width="690" alt="Screen Shot 2019-10-09 at 13 17 33" src="https://user-images.githubusercontent.com/48721079/66452105-2c439300-ea9a-11e9-9799-3e9e888c18a6.png">
+
 
 ![Screen Shot 2019-10-09 at 13.11.55](file:///Users/natsukikataoka/Desktop/Screen%20Shot%202019-10-09%20at%2013.11.55.png)
 
@@ -104,7 +104,7 @@ https://firebase.google.com/docs/web/setup#available-libraries -->
 ```
 Firebaseのコンソールに戻り、設定からプロジェクト設定　→  一番下のCDNをクリック　→ コピーして同じくpublic / index.html にペースト
 
-![Screen Shot 2019-10-09 at 13.17.33](file:///Users/natsukikataoka/Desktop/Screen%20Shot%202019-10-09%20at%2013.17.33.png)
+<img width="1393" alt="Screen Shot 2019-10-09 at 13 11 55" src="https://user-images.githubusercontent.com/48721079/66452155-614fe580-ea9a-11e9-93d2-157f823fb3ec.png">
 
 terminal/command prompt で以下のコマンドを入力
 
