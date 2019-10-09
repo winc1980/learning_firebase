@@ -103,7 +103,8 @@ https://firebase.google.com/docs/web/setup#available-libraries -->
 ```
 Firebaseのコンソールに戻り、設定からプロジェクト設定　→  一番下のCDNをクリック　→ コピーして同じくpublic / index.html にペースト
 
-<img width="1393" alt="Screen Shot 2019-10-09 at 13 11 55" src="https://user-images.githubusercontent.com/48721079/66452155-614fe580-ea9a-11e9-93d2-157f823fb3ec.png">
+<img width="690" alt="Screen Shot 2019-10-09 at 13 17 33" src="https://user-images.githubusercontent.com/48721079/66452198-8e9c9380-ea9a-11e9-862b-0f8081801bda.png">
+
 
 terminal/command prompt で以下のコマンドを入力
 
