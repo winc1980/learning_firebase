@@ -1,15 +1,3 @@
-Firebase入門
-
-
-今日の
-
-
-参考： https://firebase.google.com/docs/firestore/quickstart?hl=ja
-Firebase にアクセス
-右上のボタンからログインしてコンソールに移動
-プロジェクトを追加
-アプリの名前を入力。
-
 ## 第一回　Firebase入門
 メールで送った通り、nodejs と エディターはインストール済みを想定しています。
 
